@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Application From</title>
+</head>
+
+<body>
+    <form class="main">
+        <div class="innerMain">
+            <div class="row">
+                <h1 id="heading">Application for the Post Of The Project Enginner</h1>
+            </div>
+            <br>
+            <form class="row-1">
+                <div class="colomn-1">
+                    <label>1.Position Code (Select  one)<sup id="star">*</sup>:</label>
+                </div>
+                <div class="colomn-2">
+                    <select name="code" id="position">
+                <option value="select">select</option>
+                <option value="1">one</option>
+                <option value="2">two</option>
+                <option value="3">three</option>
+            </select>
+                </div>
+            </form>
+            <br><br>
+
+            <form class="row-2">
+
+                <div class="col left">
+                    <label for="name">2.Name<sup id="star">*</sup>:</label>
+                    <br><br>
+
+                    <label for="name">3.Father's Name<sup id="star">*</sup>:</label>
+                    <br><br>
+
+                    <label for="dob">4.Date of Birth<sup id="star">*</sup>:</label>
+                    <br><br>
+
+                    <label for="g">5.Gender<sup id="star">*</sup>:</label>
+                    <br><br>
+
+                    <label>6.Nationality<sup id="star">*</sup>:</label>
+                    <br><br>
+
+                    <label for="m">7.Married Status<sup id="star">*</sup>:</label>
+                    <br><br>
+
+                    <label for="cast" aria-required="true">8.Whether Belong to(select)<sup id="star">*</sup>:</label>
+                    <br><br>
+
+                </div>
+                <div class="col center">
+                    <input type="text" placeholder="Enter Applicant name" id="text" required>
+                    <br><br>
+                    <input type="text" placeholder="Enter Applicant name" id="text" required>
+                    <br><br>
+
+                    <input type="date" name="DOB" required> &nbsp;&nbsp; Age
+                    <input type="text" style="width: 25px; background-color: violet; ">
+                    <br><br>
+
+                    <input type="radio" name="male">Male
+                    <input type="radio" name="Female">Female
+                    <br><br>
+
+                    <input type="text" placeholder="enter nation name" id="text" required>
+                    <br><br>
+
+
+                    <select name="mariage" id="position">
+                    <option value="0" class="status">Select</option>
+                    <option value="1" class="status">married</option>
+                    <option value="2" class="status">Single</option>
+                    <option value="3" class="status">Living</option>
+                </select>
+                    <br><br>
+
+
+                    <input type="radio">sc
+                    <input type="radio">st
+                    <input type="radio">OBC
+                    <input type="radio">PWD
+                    <input type="radio">General
+                    <br><br>
+
+
+                </div>
+                <div class="col right">
+                    <!-- here upload photo -->
+                    <label for="Photo"><b>&nbsp;&nbsp; Upload your Photo<sup>*</sup></b></label><br>
+                    <div style="border-style: solid; height: 150px; width: 150px; border: 1px solid grey ; margin: 10px;"></div>
+                    <input type="file" name="Photo" required> <br>
+                </div>
+            </form>
+            <br><br>
+
+
+            <form class="row-3">
+                <div class="col left">
+                    <label for="id">9.Proo of Identity<sup id="star">*</sup>:</label>
+                    <br><br>
+
+                    <label for="adress">10.Adress for corespondance<sup id="star">*</sup>:</label>
+                    <br><br><br><br>
+
+                    <label for="adress">select state<sup id="star">*</sup>:</label>
+                    <br>
+                    <select name="stateName" id="sc">
+                        <option value="0" class="status">Select</option>
+                        <option value="1" class="status">utter Pradesh</option>
+                        <option value="2" class="status">Madhya Pradesh</option>
+                        <option value="3" class="status">andhra Pradesh</option>
+                    </select>
+                    <br><br><br>
+
+                    <label for="id">Pincode<sup id="star">*</sup>:</label>
+                    <br><br>
+
+                </div>
+                <div class="col center">
+                    <select name="proof" id="position">
+                        <option value="1">Adhar</option>
+                        <option value="2">PanCard</option>
+                    </select>
+                    <br><br>
+                    <input type="text" style="height: 50px;" id="text">
+                    <br> <br><br>
+                    <label class="cityName">select city<sup id="star">*</sup>:</label>
+                    <br>
+                    <select class="cityName" id="sc">
+                        <option value="0" class="status">Select</option>
+                        <option value="1" class="status">Allahabad</option>
+                        <option value="2" class="status">ayodhya</option>
+                        <option value="3" class="status">Varanasi</option>
+                    </select>
+                    <br><br><br>
+
+                    <input type="number" id="text">
+                </div>
+                <div class="col right">
+                    <input type="number" placeholder="Enter Adhar no./Pan no." id="text">
+                    <br>
+                    <div id="inCol">
+                        <h4>Phone Number (with STD Code)</h4><br>
+                        <div class="inner-colomn-left" id="in">Offic: <br>
+                            <input type="text" id="orm">
+                        </div>
+                        <div class="inner-colomn-center" id="in">Residance: <br>
+                            <input type="text" id="orm">
+                        </div>
+                        <div class="inner-colomn-right" id="in">Mobile: <sup id="star">*</sup> <br>
+                            <input type="text" id="orm" required maxlength="12" minlength="10">
+                        </div><br><br> <br> Pramary Email:<sup id="star">*</sup>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="email" name="email" id="text" placeholder="Enter Email;" style="background-color: lightslategray ;">
+                        <br><br> Secondry Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="email" name="email" id="text" placeholder="Enter Email;">
+                    </div>
+                </div>
+            </form>
+            <form action="text" id="f1">
+                <h3>11.Are you currently working in CDAC?<sup id="star">*</sup> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="cdac" id="position">
+                    <option value="1">No</option>
+                    <option value="2">Yes</option>
+
+                </select>
+                </h3>
+                <h3>12.Are you employee in govt./semi-Govt./PSU/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="cdac" id="position">
+                    <option value="1">Govrnment</option>
+                    <option value="2">Yes</option>
+
+                </select>
+                    <br>Autonobus bodis?<sup id="star">*</sup>
+                </h3>
+
+                <h4>If "
+                    <b>Yes</b>" the application should be forword thought proper chalanal or NOC to be produced at the time of interview </h4>
+
+                <h3>13.Have you ever been interviewed recuirment any &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <select name="cdac" id="position">
+                    <option value="1">No</option>
+                    <option value="2">Yes</option>
+
+                </select>
+                    <br>post in C-DAC earlier?<sup id="star">*</sup>
+                </h3>
+            </form><br>
+            <form action="course" id="f1">
+                <b>Accodmic & Professional Qlification</b>(Beging with last graduation/PG/PG-Deploma/(withany PHD))
+                <br><br>
+                <div id="marks">
+                    <h3> <br><br> Qualification &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <sup id="star">*</sup></h3>
+
+                </div>
+                <div id="marks" style="width: 20%;">
+                    <h3> <br><br> Name of Institude/board university <sup id="star">*</sup></h3>
+                </div>
+                <div id="marks">
+
+                    <h3> <br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Specilazation <sup id="star">*</sup> </h3>
+                </div>
+                <div id="marks">
+                    <h3> <br><br> &nbsp;&nbsp; Year of &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> &nbsp;&nbsp; passing <sup id="star">*</sup></h3>
+                </div>
+                <div id="marks">
+                    <h3> <br> &nbsp;&nbsp;&nbsp; % Marks <br>&nbsp;&nbsp;&nbsp;(Agregate) <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <sup id="star">*</sup>
+                    </h3>
+                </div>
+                <div id="marks">
+                    <h3> &nbsp;&nbsp;&nbsp; class/ <br>&nbsp;&nbsp;&nbsp; Divion/ <br>&nbsp;&nbsp; Ranks/<br> &nbsp;&nbsp; Distriction &nbsp;&nbsp;&nbsp;
+                    </h3>
+                </div>
+                <div id="marks">
+                    <h3>
+                        <br> <br>
+                        <button style="margin-left: 10px; background-color:lightpink; width: 50px; height: 50px; ">add <br> row</button> </h3>
+                    <!-- <input type="button" value="&nbsp; Add row " style=" width: 50px; height: 50px; "> -->
+                </div>
+                <div id="f1">
+                    <div id="feild"><select id="m-feild">
+                    <option value="degree">b.tech(CSE)</option>
+                    <option value="degree">b.tech(ME)</option>
+                    <option value="degree">b.tech(EE)</option>
+                    <option value="degree">b.tech(EC)</option>
+                </select></div>
+                    <div id="feild" style="width: 20%;"><input type="text" name="m-feild" style="margin:10px; margin-top: 15px; "></div>
+                    <div id="feild"><input type="text" id="m-feild"></div>
+                    <div id="feild"><input type="text" id="m-feild"></div>
+                    <div id="feild"><input type="text" id="m-feild"></div>
+                    <div id="feild"><input type="text" id="m-feild"></div>
+                    <div id="feild"><input type="button" value="Delete" id="m-feild"></div>
+                </div>
+
+            </form>
+            <p><b>15. Work Experience (Latest First)</b></p>
+            <div style="overflow:auto;">
+                <table>
+                    <thead>
+                        <th><label for="Organization"><b>Name of the Organization  <br> </b></label></th>
+                        <th><label for="Grade"><b>Designation and Grade <br></b></label></th>
+                        <th><label for="Salary"><b>Total Salary Drawn <br></b></label></th>
+                        <th><label for="start-date"><b>From (Mon-YYYY) <br></b></label></th>
+                        <th><label for="end-date"><b>To (Mon-YYYY) <br></b></label></th>
+                        <th><label for="Job relevancy"><b>Natureof Work relevant for applied job</b></label></th>
+                        <th><label for="row"><b>Add rows</b></label></th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="text" name="Organization"></td>
+                            <td><input type="text" name="Grade"></td>
+                            <td><input type="text" name="Salary"></td>
+                            <td>
+                                <select name="start-date">
+                                <option value="">Select</option>
+                                <option value="1">Jan</option>
+                                <option value="2">Feb</option>
+                                <option value="3">Mar</option>
+                                <option value="4">Apr</option>
+                                <option value="5">May</option>
+                                <option value="6">Jun</option>
+                                <option value="7">Jul</option>
+                                <option value="8">Aug</option>
+                                <option value="9">Sep</option>
+                                <option value="10">Oct</option>
+                                <option value="11">Nov</option>
+                                <option value="12">Dec</option>
+                            </select>
+                                <input type="text" name="start-date" size="4">
+                            </td>
+                            <td>
+                                <select name="end-date">
+                                <option value="">Select</option>
+                                <option value="1">Jan</option>
+                                <option value="2">Feb</option>
+                                <option value="3">Mar</option>
+                                <option value="4">Apr</option>
+                                <option value="5">May</option>
+                                <option value="6">Jun</option>
+                                <option value="7">Jul</option>
+                                <option value="8">Aug</option>
+                                <option value="9">Sep</option>
+                                <option value="10">Oct</option>
+                                <option value="11">Nov</option>
+                                <option value="12">Dec</option>
+                            </select>
+                                <input type="text" name="end-date" size="4">
+                            </td>
+                            <td><textarea name="job relevancy" cols="10" rows="3"></textarea></td>
+                            <td><button type="button" id="buttonadd">Add row</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <br>
+            <hr>
+
+            <form action="#" id="f1">
+                <label class="block3" for="short term course"><b>16. Any Short Term Certificate courses/ Training Undergone</b></label>
+                <textarea class="block4" name="short term course" cols="30" rows="03"></textarea><br>
+                <p class="blocks">If so, list the details.</p><br><br>
+                <div class="clr"></div>
+                +
+                <br><label class="block3" for="GATE/UGC"><b>17. GATE/ UGC-CSIR Examination etc. Qualified, if any</b></label>
+
+                <textarea class="block4" name="GATE/UGC" cols="30" rows="05"></textarea><br>
+                <p class="blocks">(Discipline/ Branch, Year of Passing, %)</p><br><br>
+                <div class="clr"></div>
+                <!--clear float-->
+
+
+
+                <br><label class="block3" for="Project Title"><b>18. a) P.G (M.E/ M. Tech) Project Title</b></label>
+                <input class="block4" type="text" name="Project Title"><br><br>
+                <div class="clr"></div>
+                <!--clear float-->
+
+                <br><label class="block3" for="PGProject Synopsis"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) P.G Project Synopsis/ Abstract (Max. 250 Words)</b></label>
+                <textarea class="block4" name="Project Synopsis" cols="30" rows="05"></textarea><br><br>
+                <div class="clr"></div>
+                <!--clear float-->
+
+                <label class="block3" for="Thesis Title"><b>19. a) Ph.D Thesis Title</b></label>
+                <input class="block4" type="text" name="Thesis Title"><br><br>
+                <div class="clr"></div>
+                <!--clear float-->
+
+                <label class="block3" for="Thesis Synopsis"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Ph.D Thesis Synopsis/ Abstract (Max. 250 Words)</b></label>
+                <textarea class="block4" name="Thesis Synopsis" cols="30" rows="05"></textarea><br><br>
+                <div class="clr"></div>
+                <!--clear float-->
+
+                <label class="block3" for="Work/semi/conf"><b>20. Workshops/ Seminars/ Conferences attended</b></label>
+                <textarea class="block4" name="Work/semi/conf" cols="30" rows="05"></textarea><br><br>
+                <div class="clr"></div>
+                <!--clear float-->
+
+                <label class="block3" for="Papers"><b>21. Papers published/ presented / Technical talks delivered</b></label>
+                <textarea class="block4" name="Papers" cols="30" rows="05"></textarea><br><br>
+                <div class="clr"></div>
+                <!--clear float-->
+
+                <label class="block3" for="add.info"><b>22. Any additional info that may not have been covered</b></label>
+                <textarea class="block4" name="add.info" cols="30" rows="05"></textarea><br><br>
+                <div class="clr"></div>
+                <!--clear float-->
+
+                <label class="block3" for="Ref"><b>23. References (Name, Occupation, Addr, Email, Mobile#)<sup>*</sup></b></label>
+                <textarea class="block4" name="Ref" cols="30" rows="05"></textarea><br><br>
+                <p class="blocks">(at least 2 references)</p><br><br>
+                <div class="clr"></div>
+
+                <!--clear float-->
+                <hr>
+                <p><b>Application Fees Details</b></p>
+                <div class="paydetail">
+                    <label class="block3" for="Payment Mode"><b><u>Mode of Payment</u></b></label>
+                    <input class="block4" type="text" name="Payment Mode"><br>
+
+                    <label class="block3" for="Bank_Branch"><b><u>Bank and Branch</u></b></label>
+                    <input class="block4" type="text" name="Bank_Branch"><br>
+
+                    <label class="block3" for="T_id"><b><u>Transaction ID</u><sup id="star">*</sup></b></label>
+                    <input class="block4" type="text" name="T_id" required><br>
+
+                    <label class="block3" for="T_date"><b><u>Transaction Date</u><sup id="star">*</sup></b></label>
+                    <input class="block4" type="date" name="T_date" required><br>
+                </div>
+
+                <div class="block2">
+                    <label for="PayProof"><b>Upload proof of Payment<sup id="star">*</sup></b></label><br>
+                    <div style="border-style: solid; height: 200px; width: 190px; border-color: black;"></div>
+                    <input type="file" name="PayProof" required> <br>
+                </div>
+
+                <div class="clr"></div>
+                <!--clear float-->
+
+                <br>
+                <hr>
+
+                <label for="cv"><b>Upload your CV</b> File name: [yourname_CV.pdf]<b><sup id="star">*</sup></b></label>
+                <input type="file"><br>
+
+                <p><b><u>DECLARATION</u><br>
+                1. I certify that all information provided in this application is true, complete and correct to the best of my knowledge and belief.   
+                <br> I understand that any false information or omission of information may disqualify me from consideration for employment 
+                <br> and  <br> may result in dismissal from the job, if discovered at a later date. 
+                <br> 2. I have read and understood the above declaration before signing this.</b>
+                </p>
+
+                <label for="Place">Place<b><sup id="star">*</sup></b></label>
+                <input type="text" name="Place" required> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <label for="Date">Date</label>
+                <input type="datetime-local" name="Date"><br><br>
+
+                <input type="checkbox"><b><u>I accept the Terms and Conditions</u></b>
+
+                <br><br><button type="button" id="button1" onclick="test.html">SUBMIT FORM</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="button" id="button2">SAVE DRAFT</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="button" id="button3">CLEAR FORM</button> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="button" id="button4">BACK</button>
+                <br>
+                <footer>
+                    <p>&copy; 2020 C-DAC. All rights reserved Website owned & maintained by: Centre for Development of Advanced Computing (C-DAC)</p>
+                </footer>
+            </form>
+        </div>
+    </form>
+</body>
+
+</html>

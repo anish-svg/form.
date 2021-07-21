@@ -1,0 +1,281 @@
+.main {
+    width: 1150px;
+    /* height: 2000px; */
+    border: 2px solid black;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    word-wrap: unset;
+}
+
+.innerMain {
+    width: 1100px;
+    height: 3p000px;
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    word-wrap: unset;
+    padding: 6px;
+}
+
+#heading {
+    padding-top: 2%;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
+
+#star {
+    color: red;
+}
+
+.row-1 {
+    width: 96%;
+    height: 80px;
+    /* border: 2px solid black; */
+}
+
+.colomn-1 {
+    width: 155px;
+    float: left;
+    height: 80px;
+    /* border: 2px solid wheat; */
+    /* background-color: red; */
+}
+
+.colomn-2 {
+    width: 850px;
+    height: 80px;
+    float: right;
+    /* border: 2px solid gainsboro; */
+    /* background-color: green; */
+}
+
+#position {
+    /* padding: 4%; */
+    width: 250px;
+    height: 25px;
+}
+
+#text {
+    width: 250px;
+    height: 25px;
+}
+
+.row-2,
+.row-3,
+#f1 {
+    width: 1080px;
+    /* height: 300px; */
+    display: table;
+    /* border: 2px solid green; */
+    /* background-color: greenyellow; */
+}
+
+.col {
+    float: left;
+    height: 300px;
+}
+
+.left {
+    width: 155px;
+    /* border: 2px solid wheat; */
+    /* background-color: red; */
+}
+
+.center {
+    width: 400px;
+    /* border: 2px solid wheat; */
+    /* background-color: green; */
+}
+
+.right {
+    width: 510px;
+    /* border: 2px solid wheat; */
+    /* background-color: orange; */
+}
+
+.cityName {
+    margin-left: 60px;
+}
+
+#sc {
+    width: 190px;
+    height: 30px;
+}
+
+#in {
+    float: left;
+    width: 33.33%;
+}
+
+#orm {
+    width: 90px;
+}
+
+#inCol {
+    width: 510px;
+    height: 100px;
+}
+
+#marks {
+    float: left;
+    width: 13%;
+    border: .5px solid slategray;
+    border-bottom: 0px;
+}
+
+#feild,
+#side {
+    float: left;
+    width: 13%;
+    border: .5px solid slategray;
+}
+
+#m-feild {
+    width: 100px;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-bottom: 9px;
+    margin-right: 3px;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
+
+.block1 {
+    float: left;
+    width: 60%
+}
+
+.block2 {
+    float: right;
+    width: 40%
+}
+
+.block3 {
+    float: left;
+    width: 50%
+}
+
+.block4 {
+    float: right;
+    width: 50%
+}
+
+.block4 .box1 {
+    float: left;
+    width: 33%;
+}
+
+.block4 .box2 {
+    float: left;
+    width: 33%;
+}
+
+.block4 .box3 {
+    float: right;
+    width: 33%;
+}
+
+.blocks {
+    font-size: small;
+    line-height: 5px;
+    float: right;
+    width: 50%
+}
+
+.block20 {
+    float: left;
+    width: 25%;
+}
+
+.container .block30 {
+    float: left;
+    width: 30%;
+}
+
+.container .block70 {
+    float: right;
+    width: 60%;
+}
+
+.container select {
+    width: 50px;
+}
+
+.container .paydetail {
+    border: 2px solid;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+    width: 50%
+}
+
+.clr {
+    clear: both;
+}
+
+#poi {
+    float: left;
+    width: 20%;
+}
+
+#poi1 {
+    float: left;
+    width: 40%;
+}
+
+#poi2 {
+    float: right;
+    width: 35%;
+}
+
+#button1 {
+    background-color: green;
+    color: white;
+    width: 250px;
+    height: 35px;
+}
+
+#button2 {
+    background-color: blue;
+    color: white;
+    width: 250px;
+    height: 35px;
+}
+
+#button3 {
+    background-color: rgb(255, 208, 0);
+    color: black;
+    width: 250px;
+    height: 35px;
+}
+
+#button4 {
+    background-color: red;
+    color: white;
+    width: 250px;
+    height: 35px;
+}
+
+#buttonadd {
+    background-color: blue;
+    color: white;
+    width: 70px;
+    height: 30px;
+}
+
+#buttondel {
+    background-color: red;
+    color: white;
+    width: 70px;
+    height: 30px;
+}
